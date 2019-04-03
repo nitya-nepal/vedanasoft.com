@@ -1,10 +1,9 @@
-var proxy = require("http-proxy-middleware")
+var proxy = require('http-proxy-middleware');
 
 module.exports = {
   siteMetadata: {
     title: 'Vedana Soft',
-    description:
-      'Vedana Software and Technology solutions will take your idea to completion.',
+    description: 'Vedana Software and Technology solutions will take your idea to completion.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -74,19 +73,37 @@ module.exports = {
         purgeOnly: ['/all.sass'], // applies purging only on the bulma css file
       },
     }, // must be after other CSS plugins
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Vedana Soft`,
+        short_name: `VedanaSoft`,
+        start_url: `/`,
+        background_color: `#f7f0eb`,
+        theme_color: `#a2466c`,
+        // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
+        // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
+        display: `standalone`,
+        icon: `src/img/icon.png`, // This path is relative to the root of the site.
+        include_favicon: true, // Include favicon
+      },
+    },
+    // this (optional) plugin enables Progressive Web App + Offline functionality
+    // To learn more, visit: https://gatsby.dev/offline
+    'gatsby-plugin-offline',
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
   // for avoiding CORS while developing Netlify Functions locally
   // read more: https://www.gatsbyjs.org/docs/api-proxy/#advanced-proxying
   developMiddleware: app => {
     app.use(
-      "/.netlify/functions/",
+      '/.netlify/functions/',
       proxy({
-        target: "http://localhost:9000",
+        target: 'http://localhost:9000',
         pathRewrite: {
-          "/.netlify/functions/": "",
+          '/.netlify/functions/': '',
         },
-      })
-    )
+      }),
+    );
   },
-}
+};
