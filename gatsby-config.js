@@ -2,8 +2,8 @@ var proxy = require('http-proxy-middleware');
 
 module.exports = {
   siteMetadata: {
-    title: 'Vedana Soft',
-    description: 'Vedana Software and Technology solutions will take your idea to completion.',
+    title: 'Vedana Software and Technology',
+    description: 'Vedana Software and Technology solutions will take your idea to completion. At Vedanawe believe in change to be the truth, research and development is out forte.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

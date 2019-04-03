@@ -5,17 +5,11 @@ image: /img/home-jumbotron.jpg
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
-  title: Why Kaldi
+  title: Why Vedana
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    Vedana Software and Technology solutions will take your idea to completion. At Vedanawe believe in change to be the truth, research and development is out forte.
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Vedana means sensations. We may or may not observe it but at any moment of time, all the time we are feeling sensations in our body. Similarly everyone is feeling the vedanas in their bodies. In technical terms it can be compared data. In every application, there is always signals and information chaging with time. We see this flux of data as a part of truth.
 intro:
   blurbs:
     - image: /img/coffee.png
