@@ -55,7 +55,7 @@ intro:
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
 main:
-  heading: Great product with no compromises
+  heading: Our Core Team
   description: >
     We hold our product to the highest standards from the shrub to the tree.
     That’s why we’re meticulous and transparent about each step of the product's
@@ -72,4 +72,3 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 ---
-
