@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Vedana
 image: /img/home-jumbotron.jpg
 heading: Impermanent and insufferable
 subheading: Software trends are changing all the time.
