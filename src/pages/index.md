@@ -7,13 +7,22 @@ subheading: Support sustainable farming while enjoying a cup
 mainpitch:
   title: Why Vedana
   description: >
-    Vedana Software and Technology solutions will take your idea to completion. At Vedanawe believe in change to be the truth, research and development is out forte.
+    Vedana Software and Technology solutions will take your idea to completion.
+    At Vedanawe believe in change to be the truth, research and development is
+    out forte.
 description: >-
-  Vedana means sensations. We may or may not observe it but at any moment of time, all the time we are feeling sensations in our body. Similarly everyone is feeling the vedanas in their bodies. In technical terms it can be compared data. In every application, there is always signals and information chaging with time. We see this flux of data as a part of truth.
+  Vedana means sensations. We may or may not observe it but at any moment of
+  time, all the time we are feeling sensations in our body. Similarly everyone
+  is feeling the vedanas in their bodies. In technical terms it can be compared
+  data. In every application, there is always signals and information chaging
+  with time. We see this flux of data as a part of truth.
 intro:
   blurbs:
     - image: /img/coffee.png
       text: >
+        This is product 1 our first product we start with Inventory Management
+        System
+
         We sell green and roasted coffee beans that are sourced directly from
         independent farmers and farm cooperatives. We’re proud to offer a
         variety of coffee beans grown with great care for the environment and
@@ -41,17 +50,18 @@ intro:
         sale. The full price you pay goes to the artist.
   heading: What we offer
   description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
+    Vedana Soft is the ultimate spot for coffee lovers who want to learn about
+    their java’s origin and support the farmers that grew it. We take coffee
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
 main:
-  heading: Great coffee with no compromises
+  heading: Great product with no compromises
   description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+    We hold our product to the highest standards from the shrub to the tree.
+    That’s why we’re meticulous and transparent about each step of the product's
+    journey. You can personally visit our space to make sure the conditions are
+    optimal for the growth of your idea, work-space for our developers, and the
+    local environment.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/products-grid3.jpg
@@ -62,3 +72,4 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 ---
+
