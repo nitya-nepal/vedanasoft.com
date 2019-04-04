@@ -5,8 +5,9 @@ import { Link, graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Features from '../components/Features';
 import BlogRoll from '../components/BlogRoll';
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 
-export const IndexPageTemplate = ({ image, title, heading, subheading, mainpitch, description, intro }) => (
+export const IndexPageTemplate = ({ image, title, heading, subheading, mainpitch, description, intro, main }) => (
   <div>
     <div
       className="full-width-image margin-top-0"
@@ -74,6 +75,59 @@ export const IndexPageTemplate = ({ image, title, heading, subheading, mainpitch
                 </div>
                 <Features gridItems={intro.blurbs} />
                 <div className="columns">
+                  <div className="column is-12">
+                    <h3 className="has-text-weight-semibold is-size-2">{main.heading}</h3>
+                    <p>{main.description}</p>
+                  </div>
+                </div>
+                <div className="columns is-multiline">
+                  <div className="column is-6">
+                    <section className="section">
+                      <div className="has-text-centered">
+                        <div
+                          style={{
+                            width: '240px',
+                            display: 'inline-block',
+                          }}
+                        >
+                          <PreviewCompatibleImage imageInfo={{ ...main.image1 }} />
+                        </div>
+                      </div>
+                      <p>{main.image1.alt}</p>
+                    </section>
+                  </div>
+                  <div className="column is-6">
+                    <section className="section">
+                      <div className="has-text-centered">
+                        <div
+                          style={{
+                            width: '240px',
+                            display: 'inline-block',
+                          }}
+                        >
+                          <PreviewCompatibleImage imageInfo={{ ...main.image2 }} />
+                        </div>
+                      </div>
+                      <p>{main.image2.alt}</p>
+                    </section>
+                  </div>
+                  <div className="column is-6">
+                    <section className="section">
+                      <div className="has-text-centered">
+                        <div
+                          style={{
+                            width: '240px',
+                            display: 'inline-block',
+                          }}
+                        >
+                          <PreviewCompatibleImage imageInfo={{ ...main.image2 }} />
+                        </div>
+                      </div>
+                      <p>{main.image2.alt}</p>
+                    </section>
+                  </div>
+                </div>
+                <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/products">
                       See all products
@@ -108,6 +162,22 @@ IndexPageTemplate.propTypes = {
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
+  main: PropTypes.shape({
+    heading: PropTypes.string,
+    description: PropTypes.string,
+    image1: PropTypes.shape({
+      alt: PropTypes.string,
+      image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+    }),
+    image2: PropTypes.shape({
+      alt: PropTypes.string,
+      image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+    }),
+    image3: PropTypes.shape({
+      alt: PropTypes.string,
+      image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+    }),
+  }),
 };
 
 const IndexPage = ({ data }) => {
@@ -115,7 +185,7 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout>
-      <IndexPageTemplate image={frontmatter.image} title={frontmatter.title} heading={frontmatter.heading} subheading={frontmatter.subheading} mainpitch={frontmatter.mainpitch} description={frontmatter.description} intro={frontmatter.intro} />
+      <IndexPageTemplate image={frontmatter.image} title={frontmatter.title} heading={frontmatter.heading} subheading={frontmatter.subheading} mainpitch={frontmatter.mainpitch} description={frontmatter.description} intro={frontmatter.intro} main={frontmatter.main} />
     </Layout>
   );
 };
@@ -162,6 +232,40 @@ export const pageQuery = graphql`
           }
           heading
           description
+        }
+        main {
+          heading
+          description
+          image1 {
+            alt
+            image {
+              childImageSharp {
+                fluid(maxWidth: 240, quality: 64) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+          image2 {
+            alt
+            image {
+              childImageSharp {
+                fluid(maxWidth: 240, quality: 64) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+          image3 {
+            alt
+            image {
+              childImageSharp {
+                fluid(maxWidth: 240, quality: 64) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
         }
       }
     }
