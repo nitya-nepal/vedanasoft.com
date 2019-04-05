@@ -7,8 +7,10 @@ subheading: Aligning Software inside Business
 mainpitch:
   title: Vedanasoft
   description: >
-    Vedanasoft Technology and Innovation will take your idea to completion. At
-    out depth we believe in underwater volcanic eruption.
+    Vedanasoft Technology and Innovation will take your idea to completion.
+    Business idea innovation and making software viable in profit making,
+    operation streamlining, business remodeling, real-time updates, statistical
+    visualization, backup, projection and forecasting is our forte.
 description: >-
   Vedana means sensations. We may or may not observe it but at any moment of
   time, all the time we are feeling sensations in our body. Similarly everyone
