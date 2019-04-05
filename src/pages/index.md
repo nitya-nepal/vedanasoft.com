@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: Vedana Software and IT
+title: Vedanasoft Technology and Innovation
 image: /img/home-jumbotron.jpg
 heading: Impermanent and insufferable
 subheading: Software trends are changing all the time.
