@@ -16,7 +16,7 @@ description: >-
   to use and pleasing. It will feel like a reward.
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/inventoryimg.png
       text: >
         This is product 1 our first product we start with Inventory Management
         System
