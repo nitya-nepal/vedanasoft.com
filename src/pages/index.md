@@ -5,11 +5,10 @@ image: /img/667fd8532b78d9ae474dde146c13ab8f.png
 heading: Quality Coding
 subheading: Aligning Software inside Business
 mainpitch:
-  title: Who are we
+  title: Vedanasoft
   description: >
-    Vedana Software and Technology solutions will take your idea to completion.
-    At Vedanawe believe in change to be the truth, research and development is
-    out forte.
+    Vedanasoft Technology and Innovation will take your idea to completion. At
+    out depth we believe in underwater volcanic eruption.
 description: >-
   Vedana means sensations. We may or may not observe it but at any moment of
   time, all the time we are feeling sensations in our body. Similarly everyone
