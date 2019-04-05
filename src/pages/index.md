@@ -12,11 +12,8 @@ mainpitch:
     operation streamlining, business remodeling, real-time updates, statistical
     visualization, backup, projection and forecasting is our forte.
 description: >-
-  Vedana means sensations. We may or may not observe it but at any moment of
-  time, all the time we are feeling sensations in our body. Similarly everyone
-  is feeling the vedanas in their bodies. In technical terms it can be compared
-  data. In every application, there is always signals and information chaging
-  with time. We see this flux of data as a part of truth.
+  Vedana means sensations. We are obsessed at making our product beautiful, easy
+  to use and pleasing. It will feel like a reward.
 intro:
   blurbs:
     - image: /img/coffee.png
