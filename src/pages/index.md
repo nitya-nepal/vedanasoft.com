@@ -3,7 +3,7 @@ templateKey: index-page
 title: Vedanasoft Technology and Innovation
 image: /img/home-jumbotron.jpg
 heading: Impermanent and insufferable
-subheading: Softwares inside Business
+subheading: Aligning Software inside Business
 mainpitch:
   title: Who are we
   description: >
