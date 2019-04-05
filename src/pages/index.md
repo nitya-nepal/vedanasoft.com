@@ -5,7 +5,7 @@ image: /img/home-jumbotron.jpg
 heading: Impermanent and insufferable
 subheading: Software trends are changing all the time.
 mainpitch:
-  title: Why Vedana
+  title: Who are we
   description: >
     Vedana Software and Technology solutions will take your idea to completion.
     At Vedanawe believe in change to be the truth, research and development is
