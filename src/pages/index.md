@@ -1,8 +1,8 @@
 ---
 templateKey: index-page
 title: Vedanasoft Technology and Innovation
-image: /img/home-jumbotron.jpg
-heading: Impermanent and insufferable
+image: /img/667fd8532b78d9ae474dde146c13ab8f.png
+heading: Quality Coding
 subheading: Aligning Software inside Business
 mainpitch:
   title: Who are we
