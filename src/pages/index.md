@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Vedanasoft Technology and Innovation
-image: /img/667fd8532b78d9ae474dde146c13ab8f.png
+image: /img/images-1-.jpg
 heading: Quality Coding
 subheading: Aligning Software inside Business
 mainpitch:
