@@ -1,24 +1,22 @@
 ---
 templateKey: index-page
-title: Vedana Software and IT
-image: /img/home-jumbotron.jpg
-heading: Impermanent and insufferable
-subheading: Software trends are changing all the time.
+title: Vedanasoft Technology and Innovation
+image: /img/programming-and-code-13_www.fullhdwpp.com_.jpg
+heading: Quality Coding
+subheading: Aligning Software inside Business
 mainpitch:
-  title: Why Vedana
+  title: Vedanasoft
   description: >
-    Vedana Software and Technology solutions will take your idea to completion.
-    At Vedanawe believe in change to be the truth, research and development is
-    out forte.
+    Vedanasoft Technology and Innovation will take your idea to completion.
+    Business idea innovation and making software viable in profit making,
+    operation streamlining, business remodeling, real-time updates, statistical
+    visualization, backup, projection and forecasting is our forte.
 description: >-
-  Vedana means sensations. We may or may not observe it but at any moment of
-  time, all the time we are feeling sensations in our body. Similarly everyone
-  is feeling the vedanas in their bodies. In technical terms it can be compared
-  data. In every application, there is always signals and information chaging
-  with time. We see this flux of data as a part of truth.
+  Vedana means sensations. We are obsessed at making our product beautiful, easy
+  to use and pleasing. It will feel like a reward.
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/inventoryimg.png
       text: >
         This is product 1 our first product we start with Inventory Management
         System
@@ -48,12 +46,11 @@ intro:
         space where you can hang out with fellow coffee lovers and learn about
         coffee making techniques. All of the artwork on display there is for
         sale. The full price you pay goes to the artist.
-  heading: What we offer
+  heading: We offer
   description: >
-    Vedana Soft is the ultimate spot for coffee lovers who want to learn about
-    their java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+    Vedanasoft is the ultimate spot for smart business owners and entrepreneurs 
+    who will have a competitive edge in software and technology with our
+    partnership and support.
 main:
   heading: Our Core Team
   description: >
