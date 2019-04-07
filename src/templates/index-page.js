@@ -76,7 +76,7 @@ export const IndexPageTemplate = ({ image, title, heading, subheading, mainpitch
                 <Features gridItems={intro.blurbs} />
                 <div className="columns">
                   <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">{main.heading}</h3>
+                    <h3 className="has-text-weight-semibold is-size-2">{main && main.heading}</h3>
                     <p>{main.description}</p>
                   </div>
                 </div>
