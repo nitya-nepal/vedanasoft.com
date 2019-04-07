@@ -3,7 +3,7 @@ templateKey: index-page
 title: Vedanasoft Technology and Innovation
 image: /img/programming-and-code-13_www.fullhdwpp.com_.jpg
 heading: Quality Coding
-subheading: Aligning Software inside Business
+subheading: Aligning Software Inside Business
 mainpitch:
   title: Vedanasoft
   description: >
