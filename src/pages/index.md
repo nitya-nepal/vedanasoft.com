@@ -60,7 +60,11 @@ main:
     optimal for the growth of your idea, work-space for our developers, and the
     local environment.
   image1:
-    alt: A close-up of a paper filter filled with ground coffee
+    alt: >-
+      Aaditya Karmacharya acts as the bridge between the construction site and
+      the office. With a MBA in Human Resource, BE in Civil Engineering and more
+      than 15 successful projects under him, Aaditya ensures that projects are
+      coordinated from conception to close
     image: /img/products-grid3.jpg
   image2:
     alt: A green cup of a coffee on a wooden table
