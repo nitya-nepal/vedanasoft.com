@@ -60,10 +60,10 @@ main:
     to make sure the conditions are optimal for the growth of your idea.
   image1:
     alt: >-
-      Aaditya Karmacharya acts as the bridge between the construction site and
-      the office. With a MBA in Human Resource, BE in Civil Engineering and more
-      than 15 successful projects under him, Aaditya ensures that projects are
-      coordinated from conception to close
+      Aaditya Karmacharya acts as the bridge between the client and the office.
+      With an MBA and Bachelor's in Engineering having more than 15 successful
+      projects under him, Aaditya ensures that projects are coordinated from
+      conception to close.
     image: /img/products-grid3.jpg
   image2:
     alt: A green cup of a coffee on a wooden table
