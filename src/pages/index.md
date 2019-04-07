@@ -60,10 +60,11 @@ main:
     to make sure the conditions are optimal for the growth of your idea.
   image1:
     alt: >-
-      Aaditya Karmacharya acts as the bridge between the client and the office.
-      With an MBA and Bachelor's in Engineering having more than 15 successful
-      projects under him, Aaditya ensures that projects are coordinated from
-      conception to close.
+      Aaditya Karmacharya finds the smartest way to develop your ideas into
+      application and their integration, acts as the bridge between the client
+      and the development agile process. With an MBA and Bachelor's in
+      Engineering having more than 15 successful projects under him, Aaditya
+      ensures that projects are coordinated from conception to close.
     image: /img/products-grid3.jpg
   image2:
     alt: A green cup of a coffee on a wooden table
