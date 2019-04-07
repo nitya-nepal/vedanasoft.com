@@ -54,11 +54,10 @@ intro:
 main:
   heading: Our Core Team
   description: >
-    We hold our product to the highest standards from the shrub to the tree.
-    That’s why we’re meticulous and transparent about each step of the product's
-    journey. You can personally visit our space to make sure the conditions are
-    optimal for the growth of your idea, work-space for our developers, and the
-    local environment.
+    We are a mix of different minds fascinated by what leap technology brings
+    when aligned inside business. That’s why we’re meticulous and transparent
+    about each step of the product's journey. You can personally visit our space
+    to make sure the conditions are optimal for the growth of your idea.
   image1:
     alt: >-
       Aaditya Karmacharya acts as the bridge between the construction site and
