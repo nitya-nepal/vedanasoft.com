@@ -13,7 +13,7 @@ mainpitch:
     visualization, backup, projection and forecasting is our forte.
 description: >-
   Vedana means sensations. We are obsessed at making our product beautiful, easy
-  to use and pleasing. It will feel like a reward.
+  to use and pleasing. The product will feel like a reward.
 intro:
   blurbs:
     - image: /img/inventoryimg.png
