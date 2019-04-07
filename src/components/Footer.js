@@ -15,7 +15,7 @@ const Footer = class extends React.Component {
           <img src={logo} alt="VEDANA SOFT" style={{ width: '14em', height: '14em' }} />
         </div>
         <footer className="footer">
-          <div className="content has-text-centered has-background-black has-text-white-ter">
+          <div className="content has-text-centered">
             <p>
               Copyright © 2019 <Link to="/">VedanaSoft</Link>. All Rights Reserved
             </p>
