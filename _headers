@@ -2,7 +2,7 @@
 for = "/static/*"
 [headers.values]
 Cache-Control = "public, max-age=360000"
-/
+/index.html
   Link: </img/apple-touch-icon.png>; data-react-helmet=true; rel=apple-touch-icon; sizes=180x180
   Link: </img/safari-pinned-tab.svg>; data-react-helmet=true; rel=mask-icon; color=#ff440
   Link: </img/favicon-32x32.png>; data-react-helmet=true; rel=icon; type=image/png; sizes=32x32
