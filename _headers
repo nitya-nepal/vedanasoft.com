@@ -1,14 +1,8 @@
-[[headers]]
-for = "/static/*"
-[headers.values]
-Cache-Control = "public, max-age=360000"
-[[headers]]
-for = "/*"
-[headers.values]
-Link = [
-"</img/apple-touch-icon.png>; data-react-helmet=true; rel=apple-touch-icon; sizes=180x180",
-"</img/safari-pinned-tab.svg>; data-react-helmet=true; rel=mask-icon; color=#ff440",
-"</img/favicon-32x32.png>; data-react-helmet=true; rel=icon; type=image/png; sizes=32x32",
-"</img/favicon-16x16.png>; data-react-helmet=true; rel=icon; type=image/png; sizes=16x16",
-"</manifest.webmanifest>; rel=manifest"
-]
+/static/*
+  Cache-Control: public, max-age=360000"
+/
+  Link: </img/apple-touch-icon.png>; data-react-helmet=true; rel=apple-touch-icon; sizes=180x180
+  Link: </img/safari-pinned-tab.svg>; data-react-helmet=true; rel=mask-icon; color=#ff440
+  Link: </img/favicon-32x32.png>; data-react-helmet=true; rel=icon; type=image/png; sizes=32x32
+  Link: </img/favicon-16x16.png>; data-react-helmet=true; rel=icon; type=image/png; sizes=16x16
+  Link: </manifest.webmanifest>; rel=manifest
