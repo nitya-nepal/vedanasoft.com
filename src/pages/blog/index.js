@@ -1,12 +1,16 @@
-import React from 'react'
-
-import Layout from '../../components/Layout'
-import BlogRoll from '../../components/BlogRoll'
+import React from 'react';
+import Helmet from 'react-helmet';
+import Layout from '../../components/Layout';
+import BlogRoll from '../../components/BlogRoll';
 
 export default class BlogIndexPage extends React.Component {
   render() {
     return (
       <Layout>
+        <Helmet titleTemplate="%s | Blog">
+          <title>VedanaSoft Technology and Innovation</title>
+          <meta name="description" content="We blog about the technologies we use, such as laravel, PHP, nodejs, React, React Native, Redux, and much more." />
+        </Helmet>
         <div
           className="full-width-image-container margin-top-0"
           style={{
@@ -33,6 +37,6 @@ export default class BlogIndexPage extends React.Component {
           </div>
         </section>
       </Layout>
-    )
+    );
   }
 }
