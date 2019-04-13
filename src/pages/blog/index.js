@@ -9,7 +9,7 @@ export default class BlogIndexPage extends React.Component {
       <Layout>
         <Helmet titleTemplate="%s | Blog">
           <title>VedanaSoft Technology and Innovation</title>
-          <meta name="description" content="We blog about the technologies we use, such as laravel, PHP, nodejs, React, React Native, Redux, and much more." />
+          <meta name="description" content="We blog about the trending and upcoming technologies such as laravel, PHP, nodejs, React, React Native, Redux, and also solve any tecnical questions you send us." />
         </Helmet>
         <div
           className="full-width-image-container margin-top-0"
