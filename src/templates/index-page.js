@@ -1,40 +1,52 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { Link, graphql } from 'gatsby';
+import React from "react";
+import PropTypes from "prop-types";
+import { graphql } from "gatsby";
 
-import Layout from '../components/Layout';
-import Features from '../components/Features';
-import BlogRoll from '../components/BlogRoll';
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
+import Layout from "../components/Layout";
+import Features from "../components/Features";
+// import BlogRoll from "../components/BlogRoll";
+import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
-export const IndexPageTemplate = ({ image, title, heading, subheading, mainpitch, description, intro, main }) => (
+export const IndexPageTemplate = ({
+  image,
+  title,
+  // heading,
+  subheading,
+  // mainpitch,
+  // description,
+  intro,
+  main
+}) => (
   <div>
     <div
       className="full-width-image margin-top-0"
       style={{
-        backgroundImage: `url(${!!image.childImageSharp ? image.childImageSharp.fluid.src : image})`,
+        backgroundImage: `url(${
+          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+        })`,
         backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`,
+        backgroundAttachment: `fixed`
       }}
     >
       <div
         style={{
-          display: 'flex',
-          height: '150px',
-          lineHeight: '1',
-          justifyContent: 'space-around',
-          alignItems: 'left',
-          flexDirection: 'column',
+          display: "flex",
+          height: "150px",
+          lineHeight: "1",
+          justifyContent: "space-around",
+          alignItems: "left",
+          flexDirection: "column"
         }}
       >
         <h1
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
-            boxShadow: 'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
+            // boxShadow:
+            //   "rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px",
+            // backgroundColor: "rgb(255, 68, 0)",
+            color: "white",
+            lineHeight: "1",
+            padding: "0.25em"
           }}
         >
           {title}
@@ -42,11 +54,12 @@ export const IndexPageTemplate = ({ image, title, heading, subheading, mainpitch
         <h3
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
-            boxShadow: 'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
+            // boxShadow:
+            //   "rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px",
+            // backgroundColor: "rgb(255, 68, 0)",
+            color: "white",
+            lineHeight: "1",
+            padding: "0.25em"
           }}
         >
           {subheading}
@@ -61,6 +74,22 @@ export const IndexPageTemplate = ({ image, title, heading, subheading, mainpitch
               <div className="content">
                 <div className="content">
                   <div className="tile">
+                    <h2 className="title">HOW WE WORK</h2>
+                  </div>
+                  <div className="tile">
+                    <h3 className="subtitle">Image of how we work</h3>
+                  </div>
+                </div>
+                <div className="content">
+                  <div className="tile">
+                    <h2 className="title">SERVICES</h2>
+                  </div>
+                  <div className="tile">
+                    <h3 className="subtitle">Image of services</h3>
+                  </div>
+                </div>
+                {/* <div className="content">
+                  <div className="tile">
                     <h2 className="title">{mainpitch.title}</h2>
                   </div>
                   <div className="tile">
@@ -69,14 +98,22 @@ export const IndexPageTemplate = ({ image, title, heading, subheading, mainpitch
                 </div>
                 <div className="columns">
                   <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">{heading}</h3>
+                    <h3 className="has-text-weight-semibold is-size-2">
+                      {heading}
+                    </h3>
                     <p>{description}</p>
                   </div>
+                </div> */}
+                <div className="tile">
+                  <h2 className="title">PRODUCTS</h2>
                 </div>
                 <Features gridItems={intro.blurbs} />
+
                 <div className="columns">
                   <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">{main && main.heading}</h3>
+                    <h3 className="has-text-weight-semibold is-size-2">
+                      {main && main.heading}
+                    </h3>
                     <p>{main.description}</p>
                   </div>
                 </div>
@@ -86,11 +123,13 @@ export const IndexPageTemplate = ({ image, title, heading, subheading, mainpitch
                       <div className="has-text-centered">
                         <div
                           style={{
-                            width: '240px',
-                            display: 'inline-block',
+                            width: "240px",
+                            display: "inline-block"
                           }}
                         >
-                          <PreviewCompatibleImage imageInfo={{ ...main.image1 }} />
+                          <PreviewCompatibleImage
+                            imageInfo={{ ...main.image1 }}
+                          />
                         </div>
                       </div>
                       <p>{main.image1.alt}</p>
@@ -101,11 +140,13 @@ export const IndexPageTemplate = ({ image, title, heading, subheading, mainpitch
                       <div className="has-text-centered">
                         <div
                           style={{
-                            width: '240px',
-                            display: 'inline-block',
+                            width: "240px",
+                            display: "inline-block"
                           }}
                         >
-                          <PreviewCompatibleImage imageInfo={{ ...main.image2 }} />
+                          <PreviewCompatibleImage
+                            imageInfo={{ ...main.image2 }}
+                          />
                         </div>
                       </div>
                       <p>{main.image2.alt}</p>
@@ -116,18 +157,20 @@ export const IndexPageTemplate = ({ image, title, heading, subheading, mainpitch
                       <div className="has-text-centered">
                         <div
                           style={{
-                            width: '240px',
-                            display: 'inline-block',
+                            width: "240px",
+                            display: "inline-block"
                           }}
                         >
-                          <PreviewCompatibleImage imageInfo={{ ...main.image2 }} />
+                          <PreviewCompatibleImage
+                            imageInfo={{ ...main.image2 }}
+                          />
                         </div>
                       </div>
                       <p>{main.image2.alt}</p>
                     </section>
                   </div>
                 </div>
-                <div className="columns">
+                {/* <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/products/">
                       See all products
@@ -135,14 +178,16 @@ export const IndexPageTemplate = ({ image, title, heading, subheading, mainpitch
                   </div>
                 </div>
                 <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">Latest stories</h3>
+                  <h3 className="has-text-weight-semibold is-size-2">
+                    Latest stories
+                  </h3>
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/blog/">
                       Read more
                     </Link>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -160,24 +205,24 @@ IndexPageTemplate.propTypes = {
   mainpitch: PropTypes.object,
   description: PropTypes.string,
   intro: PropTypes.shape({
-    blurbs: PropTypes.array,
+    blurbs: PropTypes.array
   }),
   main: PropTypes.shape({
     heading: PropTypes.string,
     description: PropTypes.string,
     image1: PropTypes.shape({
       alt: PropTypes.string,
-      image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+      image: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
     }),
     image2: PropTypes.shape({
       alt: PropTypes.string,
-      image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+      image: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
     }),
     image3: PropTypes.shape({
       alt: PropTypes.string,
-      image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-    }),
-  }),
+      image: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
+    })
+  })
 };
 
 const IndexPage = ({ data }) => {
@@ -185,7 +230,16 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout>
-      <IndexPageTemplate image={frontmatter.image} title={frontmatter.title} heading={frontmatter.heading} subheading={frontmatter.subheading} mainpitch={frontmatter.mainpitch} description={frontmatter.description} intro={frontmatter.intro} main={frontmatter.main} />
+      <IndexPageTemplate
+        image={frontmatter.image}
+        title={frontmatter.title}
+        heading={frontmatter.heading}
+        subheading={frontmatter.subheading}
+        mainpitch={frontmatter.mainpitch}
+        description={frontmatter.description}
+        intro={frontmatter.intro}
+        main={frontmatter.main}
+      />
     </Layout>
   );
 };
@@ -193,9 +247,9 @@ const IndexPage = ({ data }) => {
 IndexPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object,
-    }),
-  }),
+      frontmatter: PropTypes.object
+    })
+  })
 };
 
 export default IndexPage;
