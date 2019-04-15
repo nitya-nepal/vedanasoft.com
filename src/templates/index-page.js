@@ -162,11 +162,11 @@ export const IndexPageTemplate = ({
                           }}
                         >
                           <PreviewCompatibleImage
-                            imageInfo={{ ...main.image2 }}
+                            imageInfo={{ ...main.image3 }}
                           />
                         </div>
                       </div>
-                      <p>{main.image2.alt}</p>
+                      <p>{main.image3.alt}</p>
                     </section>
                   </div>
                 </div>
