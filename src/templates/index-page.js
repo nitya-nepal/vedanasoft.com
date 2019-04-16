@@ -82,7 +82,7 @@ export const IndexPageTemplate = ({
                 </div>
                 <div className="content">
                   <div className="tile">
-                    <h2 className="title">SERVICES</h2>
+                    <h2 className="title">OUR SERVICES</h2>
                   </div>
                   <div className="tile">
                     <h3 className="subtitle">Image of services</h3>
