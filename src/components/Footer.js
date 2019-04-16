@@ -107,50 +107,63 @@ const Footer = class extends React.Component {
               </div>
               <div className="column">
                 <div className="has-text-weight-bold">FOR MORE INFORMATION</div>
-                <div className="margin">
-                  <p>Location: Samakhushhi, Grande Road</p>
-                </div>
-                <div className="margin">
-                  <p>Office Time: 11am to 6pm</p>
-                </div>
-                <div className="margin">
-                  <p>Opening Days: Monday to Friday</p>
-                </div>
+                <section className="menu">
+                  <ul className="menu-list has-text-weight-semibold">
+                    <li>Location: Samakhushi, Grande Road</li>
+                    <li>Office Time: 11am to 6pm</li>
+                    <li>Office Days: Monday to Friday</li>
+                  </ul>
+                </section>
               </div>
-              <div className="column content has-text-centered">
+              <div className="column ">
                 <div className="has-text-weight-bold">QUICK LINK</div>
                 <div className="content has-text-centered has-text-weight-semibold has-background-white has-text-black">
-                  <div className="column is-3">
-                    <section className="menu">
-                      <ul className="menu-list">
-                        <li>
-                          <Link to="/" className="navbar-item">
-                            Home
-                          </Link>
-                        </li>
-                        <li>
-                          <Link className="navbar-item" to="/about">
-                            About
-                          </Link>
-                        </li>
-                        <li>
-                          <Link className="navbar-item" to="/products">
-                            Products
-                          </Link>
-                        </li>
-                        <li>
-                          <Link className="navbar-item" to="/blog">
-                            Blog
-                          </Link>
-                        </li>
-                        <li>
-                          <Link className="navbar-item" to="/contact">
-                            Contact
-                          </Link>
-                        </li>
-                      </ul>
-                    </section>
-                  </div>
+                  {/* <div className="column is-3"> */}
+                  <section className="menu">
+                    <ul className="menu-list">
+                      <li>
+                        <Link
+                          to="/"
+                          className="has-background-white has-text-black"
+                        >
+                          Home
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          className="has-background-white has-text-black"
+                          to="/about"
+                        >
+                          About
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          className="has-background-white has-text-black"
+                          to="/products"
+                        >
+                          Products
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          className="has-background-white has-text-black"
+                          to="/blog"
+                        >
+                          Blog
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          className="has-background-white has-text-black"
+                          to="/contact"
+                        >
+                          Contact
+                        </Link>
+                      </li>
+                    </ul>
+                  </section>
+                  {/* </div> */}
                 </div>
               </div>
             </div>
