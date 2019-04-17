@@ -1,5 +1,5 @@
-import React from "react";
-import { Link } from "gatsby";
+import React from 'react';
+import { Link } from 'gatsby';
 
 // import logo from "../img/logo.jpg";
 // import facebook from "../img/social/facebook.svg";
@@ -18,7 +18,7 @@ const Footer = class extends React.Component {
             style={{ width: "14em", height: "14em" }}
           />
         </div> */}
-        <footer className="footer">
+        <footer className='footer'>
           {/* <div className="content has-text-centered">
             <p>
               Copyright © 2019 <Link to="/">VedanaSoft</Link>. All Rights
@@ -97,68 +97,71 @@ const Footer = class extends React.Component {
               </div>
             </div>
           </div> */}
-          <div className="content has-text-centered">
-            <div className="columns">
-              <div className="column">
-                <div className="has-text-weight-bold">VEDANASOFT</div>
+          <div className='content has-text-centered'>
+            <div className='columns'>
+              <div className='column'>
+                <div className='has-text-weight-bold'>VEDANASOFT</div>
                 <div>
-                  <p>Vedanasoft ...</p>
+                  <p>
+                    Vedanasoft technology and innovation believes in aligning
+                    software inside business
+                  </p>
                 </div>
               </div>
-              <div className="column">
-                <div className="has-text-weight-bold">FOR MORE INFORMATION</div>
-                <section className="menu">
-                  <ul className="menu-list has-text-weight-semibold">
-                    <li className="center">
+              <div className='column'>
+                <div className='has-text-weight-bold'>FOR MORE INFORMATION</div>
+                <section className='menu'>
+                  <ul className='menu-list has-text-weight-semibold'>
+                    <li className='center'>
                       Location: Samakhushi, Grande Road
                     </li>
-                    <li className="center">Office Time: 11am to 6pm</li>
-                    <li className="center">Office Days: Monday to Friday</li>
+                    <li className='center'>Office Time: 11am to 6pm</li>
+                    <li className='center'>Office Days: Monday to Friday</li>
                   </ul>
                 </section>
               </div>
-              <div className="column ">
-                <div className="has-text-weight-bold">QUICK LINK</div>
-                <div className="content has-text-centered has-text-weight-semibold has-background-white has-text-black">
+              <div className='column '>
+                <div className='has-text-weight-bold'>QUICK LINK</div>
+                <div className='content has-text-centered has-text-weight-semibold has-background-white has-text-black'>
                   {/* <div className="column is-3"> */}
-                  <section className="menu">
-                    <ul className="menu-list">
-                      <li className="center">
+                  <section className='menu'>
+                    <ul className='menu-list'>
+                      <li className='center'>
                         <Link
-                          to="/"
-                          className="has-background-white has-text-black"
+                          to='/'
+                          className='has-background-white has-text-black'
                         >
                           Home
                         </Link>
                       </li>
-                      <li className="center">
+                      <li className='center'>
                         <Link
-                          className="has-background-white has-text-black"
-                          to="/about"
+                          className='has-background-white has-text-black'
+                          to='/about'
                         >
                           About
                         </Link>
                       </li>
-                      <li className="center">
+                      <li className='center'>
                         <Link
-                          className="has-background-white has-text-black"
-                          to="/products"
+                          className='has-background-white has-text-black'
+                          to='/products'
                         >
                           Products
                         </Link>
                       </li>
-                      <li className="center">
+                      <li className='center'>
                         <Link
-                          className="has-background-white has-text-black"
-                          to="/blog"
+                          className='has-background-white has-text-black'
+                          to='/blog'
                         >
                           Blog
                         </Link>
                       </li>
-                      <li className="center">
+                      <li className='center'>
                         <Link
-                          className="has-background-white has-text-black"
-                          to="/contact"
+                          className='has-background-white has-text-black'
+                          to='/contact'
                         >
                           Contact
                         </Link>

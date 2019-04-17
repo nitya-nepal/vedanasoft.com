@@ -27,33 +27,32 @@ export const IndexPageTemplate = ({
 }) => (
   <>
     <section
-      class='hero is-link is-fullheight-with-navbar'
+      className='hero'
       style={{
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
+        height: 300,
       }}
     >
-      <div class='hero-body'>
-        <div class='container' style={{ height: 400 }}>
-          <h1 class='title'>{title}</h1>
-          <h2 class='subtitle'>{subheading}</h2>
-        </div>
+      <div className='hero-body'>
+        <h1 className='title'>{title}</h1>
+        <h2 className='subtitle'>{subheading}</h2>
       </div>
     </section>
     <div>
       {/* <section
-        class='hero is-primary is-large'
+        className='hero is-primary is-large'
         style={{
           backgroundImage: `url(${
             !!image.childImageSharp ? image.childImageSharp.fluid.src : image
           })`,
         }}
       >
-        <div class='hero-body'>
-          <div class='container'>
-            <h1 class='title'>{title}</h1>
-            <h2 class='subtitle'>{subheading}</h2>
+        <div className='hero-body'>
+          <div className='container'>
+            <h1 className='title'>{title}</h1>
+            <h2 className='subtitle'>{subheading}</h2>
           </div>
         </div>
       </section> */}
@@ -268,7 +267,7 @@ export const IndexPageTemplate = ({
                     className='columns is-multiline'
                     style={{ background: '#efefef' }}
                   >
-                    <div className='column is-6'>
+                    <div className='column is-4'>
                       <section className='section'>
                         <div className='has-text-centered'>
                           <div
@@ -285,7 +284,7 @@ export const IndexPageTemplate = ({
                         <p>{main.image1.alt}</p>
                       </section>
                     </div>
-                    <div className='column is-6'>
+                    <div className='column is-4'>
                       <section className='section'>
                         <div className='has-text-centered'>
                           <div
@@ -302,7 +301,7 @@ export const IndexPageTemplate = ({
                         <p>{main.image2.alt}</p>
                       </section>
                     </div>
-                    <div className='column is-6'>
+                    <div className='column is-4'>
                       <section className='section'>
                         <div className='has-text-centered'>
                           <div
