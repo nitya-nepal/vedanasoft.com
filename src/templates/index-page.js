@@ -140,13 +140,8 @@ export const IndexPageTemplate = ({
                     <p>{description}</p>
                   </div>
                 </div> */}
-<<<<<<< HEAD
-                <div className="title ">
-                  <h2 className="title has-text-centered is-2">OUR PRODUCTS</h2>
-=======
-                <div className='tile has-text-centered'>
-                  <h2 className='title '>OUR PRODUCTS</h2>
->>>>>>> 3820e073554c518476785e0f4ca24376e7fe105a
+                <div className='title '>
+                  <h2 className='title has-text-centered is-2'>OUR PRODUCTS</h2>
                 </div>
                 <Features gridItems={intro.blurbs} />
 
