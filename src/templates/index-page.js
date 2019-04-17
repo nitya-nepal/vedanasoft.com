@@ -81,21 +81,21 @@ export const IndexPageTemplate = ({
             <div className="column is-10 is-offset-1">
               <div className="content">
                 <div className="content">
-                  <div className="tile has-text-centered">
-                    <h2 className="title is-1">HOW WE WORK</h2>
+                  <div className="title has-text-centered">
+                    <p className="title is-2 has-text-centered">HOW WE WORK</p>
                   </div>
-                  <div className="tile is-centered">
+                  <div className="title has-text-centered">
                     <img src={work} />
                   </div>
                 </div>
                 <div className="content">
-                  <div className="tile">
-                    <h2 className="title has-text-centered is-3">
+                  <div className="title">
+                    <h2 className="title has-text-centered is-2">
                       OUR SERVICES
                     </h2>
                   </div>
                   <div className="block ">
-                    <div className="columns is-3">
+                    <div className="columns has-text-centered is-3">
                       <div className="column">
                         <img src={www} />
                         <p>WEBSITE</p>
@@ -109,7 +109,7 @@ export const IndexPageTemplate = ({
                         <p>ECOMMERCE SITE</p>
                       </div>
                     </div>
-                    <div className="columns is-2">
+                    <div className="columns has-text-centered is-2">
                       <div className="column is-half">
                         <img src={smartphone} />
                         <p>MOBILE APPLICATION</p>
@@ -140,8 +140,8 @@ export const IndexPageTemplate = ({
                     <p>{description}</p>
                   </div>
                 </div> */}
-                <div className="tile has-text-centered">
-                  <h2 className="title ">OUR PRODUCTS</h2>
+                <div className="title ">
+                  <h2 className="title has-text-centered is-2">OUR PRODUCTS</h2>
                 </div>
                 <Features gridItems={intro.blurbs} />
 
