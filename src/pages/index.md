@@ -54,7 +54,7 @@ main:
     alt: Prabal Pradhan
     image: /img/products-grid2.jpg
   image3:
-    alt: Rocky
+    alt: Sailesh Kasaju
     image: /img/products-grid1.jpg
 ---
 
