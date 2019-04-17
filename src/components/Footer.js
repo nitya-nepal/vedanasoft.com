@@ -109,9 +109,11 @@ const Footer = class extends React.Component {
                 <div className="has-text-weight-bold">FOR MORE INFORMATION</div>
                 <section className="menu">
                   <ul className="menu-list has-text-weight-semibold">
-                    <li>Location: Samakhushi, Grande Road</li>
-                    <li>Office Time: 11am to 6pm</li>
-                    <li>Office Days: Monday to Friday</li>
+                    <li className="center">
+                      Location: Samakhushi, Grande Road
+                    </li>
+                    <li className="center">Office Time: 11am to 6pm</li>
+                    <li className="center">Office Days: Monday to Friday</li>
                   </ul>
                 </section>
               </div>
@@ -121,7 +123,7 @@ const Footer = class extends React.Component {
                   {/* <div className="column is-3"> */}
                   <section className="menu">
                     <ul className="menu-list">
-                      <li>
+                      <li className="center">
                         <Link
                           to="/"
                           className="has-background-white has-text-black"
@@ -129,7 +131,7 @@ const Footer = class extends React.Component {
                           Home
                         </Link>
                       </li>
-                      <li>
+                      <li className="center">
                         <Link
                           className="has-background-white has-text-black"
                           to="/about"
@@ -137,7 +139,7 @@ const Footer = class extends React.Component {
                           About
                         </Link>
                       </li>
-                      <li>
+                      <li className="center">
                         <Link
                           className="has-background-white has-text-black"
                           to="/products"
@@ -145,7 +147,7 @@ const Footer = class extends React.Component {
                           Products
                         </Link>
                       </li>
-                      <li>
+                      <li className="center">
                         <Link
                           className="has-background-white has-text-black"
                           to="/blog"
@@ -153,7 +155,7 @@ const Footer = class extends React.Component {
                           Blog
                         </Link>
                       </li>
-                      <li>
+                      <li className="center">
                         <Link
                           className="has-background-white has-text-black"
                           to="/contact"
