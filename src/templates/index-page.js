@@ -1,19 +1,19 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { graphql } from "gatsby";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { graphql } from 'gatsby';
 
-import Layout from "../components/Layout";
-import Features from "../components/Features";
+import Layout from '../components/Layout';
+import Features from '../components/Features';
 // import BlogRoll from "../components/BlogRoll";
-import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 
-import computer from "../img/computer.png";
+import computer from '../img/computer.png';
 // import inventory from "../img/inventory.png";
-import onlineshop from "../img/onlineshop.png";
-import presentation from "../img/presentation.png";
-import smartphone from "../img/smartphone.png";
-import www from "../img/www.png";
-import work from "../img/work.png";
+import onlineshop from '../img/onlineshop.png';
+import presentation from '../img/presentation.png';
+import smartphone from '../img/smartphone.png';
+import www from '../img/www.png';
+import work from '../img/work.png';
 
 export const IndexPageTemplate = ({
   image,
@@ -23,99 +23,99 @@ export const IndexPageTemplate = ({
   // mainpitch,
   // description,
   intro,
-  main
+  main,
 }) => (
   <div>
     <div
-      className="full-width-image margin-top-0"
+      className='margin-top-0'
       style={{
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
         backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`
+        backgroundAttachment: `fixed`,
       }}
     >
       <div
         style={{
-          display: "flex",
-          height: "150px",
-          lineHeight: "1",
-          justifyContent: "space-around",
-          alignItems: "left",
-          flexDirection: "column"
+          display: 'flex',
+          height: '150px',
+          lineHeight: '1',
+          justifyContent: 'space-around',
+          alignItems: 'left',
+          flexDirection: 'column',
         }}
       >
         <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+          className='has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen'
           style={{
             // boxShadow:
             //   "rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px",
             // backgroundColor: "rgb(255, 68, 0)",
-            color: "white",
-            lineHeight: "1",
-            padding: "0.25em"
+            color: 'white',
+            lineHeight: '1',
+            padding: '0.25em',
           }}
         >
           {title}
         </h1>
         <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+          className='has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen'
           style={{
             // boxShadow:
             //   "rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px",
             // backgroundColor: "rgb(255, 68, 0)",
-            color: "white",
-            lineHeight: "1",
-            padding: "0.25em"
+            color: 'white',
+            lineHeight: '1',
+            padding: '0.25em',
           }}
         >
           {subheading}
         </h3>
       </div>
     </div>
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="content">
-                <div className="content">
-                  <div className="tile has-text-centered">
-                    <h2 className="title is-1">HOW WE WORK</h2>
+    <section className='section section--gradient'>
+      <div className='container'>
+        <div className='section'>
+          <div className='columns'>
+            <div className='column is-10 is-offset-1'>
+              <div className='content'>
+                <div className='content'>
+                  <div className='tile has-text-centered'>
+                    <h2 className='title is-1'>HOW WE WORK</h2>
                   </div>
-                  <div className="tile is-centered">
-                    <img src={work} />
+                  <div className='tile is-centered'>
+                    <img src={work} alt='work' />
                   </div>
                 </div>
-                <div className="content">
-                  <div className="tile">
-                    <h2 className="title has-text-centered is-3">
+                <div className='content'>
+                  <div className='tile'>
+                    <h2 className='title has-text-centered is-3'>
                       OUR SERVICES
                     </h2>
                   </div>
-                  <div className="block ">
-                    <div className="columns is-3">
-                      <div className="column">
-                        <img src={www} />
+                  <div className='block '>
+                    <div className='columns is-3'>
+                      <div className='column'>
+                        <img src={www} alt='website' />
                         <p>WEBSITE</p>
                       </div>
-                      <div className="column">
-                        <img src={computer} />
+                      <div className='column'>
+                        <img src={computer} alt='web application' />
                         <p>WEB APPLICATION</p>
                       </div>
-                      <div className="column">
-                        <img src={onlineshop} />
+                      <div className='column'>
+                        <img src={onlineshop} alt='ecommerce site' />
                         <p>ECOMMERCE SITE</p>
                       </div>
                     </div>
-                    <div className="columns is-2">
-                      <div className="column is-half">
-                        <img src={smartphone} />
+                    <div className='columns is-2'>
+                      <div className='column is-half'>
+                        <img src={smartphone} alt='mobile app' />
                         <p>MOBILE APPLICATION</p>
                       </div>
-                      <div className="column">
-                        <img src={presentation} />
+                      <div className='column'>
+                        <img src={presentation} alt='seo services' />
                         <p>SEO SERVICES</p>
                       </div>
                     </div>
@@ -140,27 +140,27 @@ export const IndexPageTemplate = ({
                     <p>{description}</p>
                   </div>
                 </div> */}
-                <div className="tile has-text-centered">
-                  <h2 className="title ">OUR PRODUCTS</h2>
+                <div className='tile has-text-centered'>
+                  <h2 className='title '>OUR PRODUCTS</h2>
                 </div>
                 <Features gridItems={intro.blurbs} />
 
-                <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
+                <div className='columns'>
+                  <div className='column is-12'>
+                    <h3 className='has-text-weight-semibold is-size-2'>
                       {main && main.heading}
                     </h3>
                     <p>{main.description}</p>
                   </div>
                 </div>
-                <div className="columns is-multiline">
-                  <div className="column is-6">
-                    <section className="section">
-                      <div className="has-text-centered">
+                <div className='columns is-multiline'>
+                  <div className='column is-6'>
+                    <section className='section'>
+                      <div className='has-text-centered'>
                         <div
                           style={{
-                            width: "240px",
-                            display: "inline-block"
+                            width: '240px',
+                            display: 'inline-block',
                           }}
                         >
                           <PreviewCompatibleImage
@@ -171,13 +171,13 @@ export const IndexPageTemplate = ({
                       <p>{main.image1.alt}</p>
                     </section>
                   </div>
-                  <div className="column is-6">
-                    <section className="section">
-                      <div className="has-text-centered">
+                  <div className='column is-6'>
+                    <section className='section'>
+                      <div className='has-text-centered'>
                         <div
                           style={{
-                            width: "240px",
-                            display: "inline-block"
+                            width: '240px',
+                            display: 'inline-block',
                           }}
                         >
                           <PreviewCompatibleImage
@@ -188,13 +188,13 @@ export const IndexPageTemplate = ({
                       <p>{main.image2.alt}</p>
                     </section>
                   </div>
-                  <div className="column is-6">
-                    <section className="section">
-                      <div className="has-text-centered">
+                  <div className='column is-6'>
+                    <section className='section'>
+                      <div className='has-text-centered'>
                         <div
                           style={{
-                            width: "240px",
-                            display: "inline-block"
+                            width: '240px',
+                            display: 'inline-block',
                           }}
                         >
                           <PreviewCompatibleImage
@@ -241,24 +241,24 @@ IndexPageTemplate.propTypes = {
   mainpitch: PropTypes.object,
   description: PropTypes.string,
   intro: PropTypes.shape({
-    blurbs: PropTypes.array
+    blurbs: PropTypes.array,
   }),
   main: PropTypes.shape({
     heading: PropTypes.string,
     description: PropTypes.string,
     image1: PropTypes.shape({
       alt: PropTypes.string,
-      image: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
+      image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
     }),
     image2: PropTypes.shape({
       alt: PropTypes.string,
-      image: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
+      image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
     }),
     image3: PropTypes.shape({
       alt: PropTypes.string,
-      image: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
-    })
-  })
+      image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+    }),
+  }),
 };
 
 const IndexPage = ({ data }) => {
@@ -283,9 +283,9 @@ const IndexPage = ({ data }) => {
 IndexPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object
-    })
-  })
+      frontmatter: PropTypes.object,
+    }),
+  }),
 };
 
 export default IndexPage;
