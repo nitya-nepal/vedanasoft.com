@@ -7,6 +7,14 @@ import Features from "../components/Features";
 // import BlogRoll from "../components/BlogRoll";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
+import computer from "../img/computer.png";
+// import inventory from "../img/inventory.png";
+import onlineshop from "../img/onlineshop.png";
+import presentation from "../img/presentation.png";
+import smartphone from "../img/smartphone.png";
+import www from "../img/www.png";
+import work from "../img/work.png";
+
 export const IndexPageTemplate = ({
   image,
   title,
@@ -73,20 +81,48 @@ export const IndexPageTemplate = ({
             <div className="column is-10 is-offset-1">
               <div className="content">
                 <div className="content">
-                  <div className="tile">
-                    <h2 className="title">HOW WE WORK</h2>
+                  <div className="tile has-text-centered">
+                    <h2 className="title is-1">HOW WE WORK</h2>
                   </div>
-                  <div className="tile">
-                    <h3 className="subtitle">Image of how we work</h3>
+                  <div className="tile is-centered">
+                    <img src={work} />
                   </div>
                 </div>
                 <div className="content">
                   <div className="tile">
-                    <h2 className="title">OUR SERVICES</h2>
+                    <h2 className="title has-text-centered is-3">
+                      OUR SERVICES
+                    </h2>
                   </div>
-                  <div className="tile">
+                  <div className="block ">
+                    <div className="columns is-3">
+                      <div className="column">
+                        <img src={www} />
+                        <p>WEBSITE</p>
+                      </div>
+                      <div className="column">
+                        <img src={computer} />
+                        <p>WEB APPLICATION</p>
+                      </div>
+                      <div className="column">
+                        <img src={onlineshop} />
+                        <p>ECOMMERCE SITE</p>
+                      </div>
+                    </div>
+                    <div className="columns is-2">
+                      <div className="column is-half">
+                        <img src={smartphone} />
+                        <p>MOBILE APPLICATION</p>
+                      </div>
+                      <div className="column">
+                        <img src={presentation} />
+                        <p>SEO SERVICES</p>
+                      </div>
+                    </div>
+                  </div>
+                  {/* <div className="tile">
                     <h3 className="subtitle">Image of services</h3>
-                  </div>
+                  </div> */}
                 </div>
                 {/* <div className="content">
                   <div className="tile">
@@ -104,8 +140,8 @@ export const IndexPageTemplate = ({
                     <p>{description}</p>
                   </div>
                 </div> */}
-                <div className="tile">
-                  <h2 className="title">PRODUCTS</h2>
+                <div className="tile has-text-centered">
+                  <h2 className="title ">OUR PRODUCTS</h2>
                 </div>
                 <Features gridItems={intro.blurbs} />
 
