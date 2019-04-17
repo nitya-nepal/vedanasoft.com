@@ -77,9 +77,6 @@ const Navbar = class extends React.Component {
             </div>
             <div className="navbar-end has-text-centered">
               <span className="navbar-item">
-                {/* <span className="navbar-item"> */}
-                {/* <img src={email} /> */}
-                {/* </span> */}
                 <span className="icon">
                   <i className="fas fa-phone-square" />
                 </span>
