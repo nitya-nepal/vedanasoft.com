@@ -3,7 +3,8 @@ var proxy = require('http-proxy-middleware');
 module.exports = {
   siteMetadata: {
     title: 'Vedana Software and Technology',
-    description: 'Vedana Software and Technology solutions will take your idea to completion. At Vedanawe believe in change to be the truth, research and development is out forte.',
+    description:
+      'Vedana Software and Technology solutions will take your idea to completion. At Vedanawe believe in change to be the truth, research and development is out forte.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -70,7 +71,7 @@ module.exports = {
       resolve: 'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
       options: {
         develop: true, // Activates purging in npm run develop
-        purgeOnly: ['/all.sass'], // applies purging only on the bulma css file
+        purgeOnly: ['/all.sass', '/fontawesome.css'], // applies purging only on the bulma css file
       },
     }, // must be after other CSS plugins
     {
