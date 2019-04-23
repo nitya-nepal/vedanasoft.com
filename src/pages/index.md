@@ -1,9 +1,12 @@
 ---
 templateKey: index-page
 title: Vedanasoft Technology and Innovation
-image: /img/circuit.jpg
+image: /img/slider-bg.jpg
 heading: Quality Coding
 subheading: Aligning Software Inside Business
+aboutusimage: /img/wrapper-img.png
+featurebg: /img/feature-bg.jpg
+contactusbg: /img/call-to-action-bg.jpg
 mainpitch:
   title: Vedanasoft
   description: >
@@ -57,4 +60,3 @@ main:
     alt: Sailesh Kasaju
     image: /img/products-grid1.jpg
 ---
-

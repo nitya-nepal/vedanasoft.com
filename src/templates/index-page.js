@@ -1,349 +1,328 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 
 import Layout from '../components/Layout';
-import Features from '../components/Features';
+// import Features from '../components/Features';
 // import BlogRoll from "../components/BlogRoll";
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 
-import computer from '../img/computer.png';
-// import inventory from "../img/inventory.png";
-import onlineshop from '../img/onlineshop.png';
-import presentation from '../img/presentation.png';
-import smartphone from '../img/smartphone.png';
-import www from '../img/www.png';
-// import work from "../img/work.png";
-
 export const IndexPageTemplate = ({
   image,
+  aboutusimage,
+  featurebg,
+  contactusbg,
   title,
   // heading,
   subheading,
   // mainpitch,
   // description,
-  intro,
-  main,
+  // intro,
+  // main,
 }) => (
   <>
     <section
-      className='hero'
+      className='slider'
       style={{
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
-        height: 300,
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+        backgroundAttachment: 'fixed',
+        backgroundPosition: '10% 0%',
       }}
     >
-      <div className='hero-body'>
-        <h1 className='title'>{title}</h1>
-        <h2 className='subtitle'>{subheading}</h2>
+      <div className='container'>
+        <div className='row'>
+          <div className='col-md-12'>
+            <div className='block'>
+              <h1 className='animated fadeInUp'>
+                {title} <br /> &#38; {subheading}
+              </h1>
+              <p className='animated fadeInUp'>
+                We love the Web and the work we do.We work closely with our
+                clients to deliver <br /> the best possible solutions for their
+                needs
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-    <div>
-      {/* <section
-        className='hero is-primary is-large'
-        style={{
-          backgroundImage: `url(${
-            !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-          })`,
-        }}
-      >
-        <div className='hero-body'>
-          <div className='container'>
-            <h1 className='title'>{title}</h1>
-            <h2 className='subtitle'>{subheading}</h2>
+    <section className='about section'>
+      <div className='container'>
+        <div className='row'>
+          <div className='col-md-7 col-sm-12'>
+            <div className='block'>
+              <div className='section-title'>
+                <h2>About Us</h2>
+                <p>
+                  Far far away, behind the word mountains, far from the
+                  countries Vokalia and Consonantia, there live the blind texts.
+                  Separated they live in Bookmarksgrove right at the coast of
+                  the Semantics
+                </p>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id{' '}
+              </p>
+            </div>
+          </div>
+          <div className='col-md-5 col-sm-12'>
+            <div className='block'>
+              <PreviewCompatibleImage imageInfo={{ image: aboutusimage }} />
+            </div>
           </div>
         </div>
-      </section> */}
-      {/* <div
-      className='margin-top-0'
+      </div>
+    </section>
+    <section
+      className='feature'
       style={{
         backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+          !!featurebg.childImageSharp
+            ? featurebg.childImageSharp.fluid.src
+            : featurebg
         })`,
-        backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`,
+        backgroundSize: 'cover',
+        backgroundAttachment: 'fixed',
       }}
     >
-      <div className='hero'>
-        <h1 className='title is-size-3-mobile is-size-2-tablet is-size-1-widescreen'>
-          {title}
-        </h1>
-        <h3 className='subtitle is-size-5-mobile is-size-5-tablet is-size-4-widescreen'>
-          {subheading}
-        </h3>
+      <div className='container'>
+        <div className='row'>
+          <div className='col-md-6 col-md-offset-6'>
+            <h2 className='section-subtitle'>WE BELIEVE IN GREAT IDEAS</h2>
+            <p>
+              Maecenas faucibus mollis interdum. Morbi leo risus, porta ac
+              consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac
+              cursus commodo, tortor mauris condimentum nibh, ut fermentum massa
+              justo sit amet risus.
+            </p>
+            <p>
+              Maecenas faucibus mollis interdum. Morbi leo risus, porta ac
+              consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac
+              cursus commodo, tortor mauris condimentum nibh, ut fermentum massa
+              justo sit amet risus.
+            </p>
+            <p>
+              Maecenas faucibus mollis interdum. Morbi leo risus, porta ac
+              consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac
+              cursus commodo, tortor mauris condimentum nibh, ut fermentum massa
+              justo sit amet risus.
+            </p>
+            {/* <a href="#" className="btn btn-view-works">View Works</a> */}
+          </div>
+        </div>
       </div>
-    </div> */}
-      <section className='section section--gradient'>
-        <div className='container'>
-          <div className='section'>
-            <div className='columns'>
-              <div className='column'>HOW WE WORK</div>
-            </div>
-            <div className='columns'>
-              <div className='column'>
-                <div className='card'>
-                  <div className='card-image'>
-                    <figure className='image is-2by1'>
-                      <img
-                        src='https://images.pexels.com/photos/167635/pexels-photo-167635.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
-                        alt='Placeholder image'
-                      />
-                    </figure>
-                  </div>
-                  <div className='card-content'>
-                    <div className='media'>
-                      <div className='media-content'>
-                        <p className='title is-4'>Project Initiation</p>
-                        <p className='subtitle is-6'>Project Initiation</p>
-                      </div>
-                    </div>
-
-                    <div className='content'>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Phasellus nec iaculis mauris.
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className='column'>
-                <div className='card'>
-                  <div className='card-image'>
-                    <figure className='image is-2by1'>
-                      <img
-                        src='https://images.pexels.com/photos/167635/pexels-photo-167635.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
-                        alt='Placeholder image'
-                      />
-                    </figure>
-                  </div>
-                  <div className='card-content'>
-                    <div className='media'>
-                      <div className='media-content'>
-                        <p className='title is-4'>Contracts</p>
-                        <p className='subtitle is-6'>Contracts</p>
-                      </div>
-                    </div>
-
-                    <div className='content'>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Phasellus nec iaculis mauris.
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className='column'>
-                <div className='card'>
-                  <div className='card-image'>
-                    <figure className='image is-2by1'>
-                      <img
-                        src='https://images.pexels.com/photos/167635/pexels-photo-167635.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
-                        alt='Placeholder image'
-                      />
-                    </figure>
-                  </div>
-                  <div className='card-content'>
-                    <div className='media'>
-                      <div className='media-content'>
-                        <p className='title is-4'>Mockup, Design and Develop</p>
-                        <p className='subtitle is-6'>
-                          Mockup, Design and Develop
-                        </p>
-                      </div>
-                    </div>
-
-                    <div className='content'>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Phasellus nec iaculis mauris.
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className='column'>
-                <div className='card'>
-                  <div className='card-image'>
-                    <figure className='image is-2by1'>
-                      <img
-                        src='https://images.pexels.com/photos/167635/pexels-photo-167635.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
-                        alt='Placeholder image'
-                      />
-                    </figure>
-                  </div>
-                  <div className='card-content'>
-                    <div className='media'>
-                      <div className='media-content'>
-                        <p className='title is-4'>Test and Launch</p>
-                        <p className='subtitle is-6'>Test and Launch</p>
-                      </div>
-                    </div>
-
-                    <div className='content'>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Phasellus nec iaculis mauris.
-                      <a>@bulmaio</a>.<a href='#'>#css</a>
-                      <a href='#'>#responsive</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
+    </section>
+    <section className='service'>
+      <div className='container'>
+        <div className='row'>
+          <div className='section-title'>
+            <h2>Our Services</h2>
+            <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, <br /> there live the blind texts.
+              Separated they live in Bookmarksgrove right at the coast of the
+              Semantics
+            </p>
+          </div>
+        </div>
+        <div className='row '>
+          <div className='col-sm-6 col-md-3'>
+            <div className='service-item'>
+              <i className='icon ion-coffee' />
+              <h4>Branding</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut{' '}
+              </p>
             </div>
           </div>
-
-          <div className='section'>
-            <div className='columns'>
-              <div className='column is-10 is-offset-1'>
-                <div className='content'>
-                  <div
-                    className='content grey-background'
-                    style={{ background: '#efefef' }}
-                  >
-                    <div className='title'>
-                      <h2 className='title has-text-centered is-1'>
-                        OUR SERVICES
-                      </h2>
-                    </div>
-                    <div className='block '>
-                      <div className='columns is-3 has-text-centered'>
-                        <div className='column'>
-                          <img src={www} alt='website' />
-                          <p>WEBSITE</p>
-                        </div>
-                        <div className='column'>
-                          <img src={computer} alt='web application' />
-                          <p>WEB APPLICATION</p>
-                        </div>
-                        <div className='column'>
-                          <img src={onlineshop} alt='ecommerce site' />
-                          <p>ECOMMERCE SITE</p>
-                        </div>
-                      </div>
-                      <div className='columns is-2 has-text-centered'>
-                        <div className='column is-half'>
-                          <img src={smartphone} alt='mobile app' />
-                          <p>MOBILE APPLICATION</p>
-                        </div>
-                        <div className='column'>
-                          <img src={presentation} alt='seo services' />
-                          <p>SEO SERVICES</p>
-                        </div>
-                      </div>
-                    </div>
-                    {/* <div className="tile">
-                    <h3 className="subtitle">Image of services</h3>
-                  </div> */}
+          <div className='col-sm-6 col-md-3'>
+            <div className='service-item'>
+              <i className='ion-compass' />
+              <h4>Web Design</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut{' '}
+              </p>
+            </div>
+          </div>
+          <div className='col-sm-6 col-md-3'>
+            <div className='service-item'>
+              <i className='ion-image' />
+              <h4>App Design</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut{' '}
+              </p>
+            </div>
+          </div>
+          <div className='col-sm-6 col-md-3'>
+            <div className='service-item'>
+              <i className='ion-bug' />
+              <h4>Start Up</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut{' '}
+              </p>
+            </div>
+          </div>
+          <div className='col-sm-6 col-md-3'>
+            <div className='service-item'>
+              <i className='ion-headphone' />
+              <h4>Logo Design</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut{' '}
+              </p>
+            </div>
+          </div>
+          <div className='col-sm-6 col-md-3'>
+            <div className='service-item'>
+              <i className='ion-leaf' />
+              <h4>Development</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut{' '}
+              </p>
+            </div>
+          </div>
+          <div className='col-sm-6 col-md-3'>
+            <div className='service-item'>
+              <i className='ion-planet' />
+              <h4>Brand Identity</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut{' '}
+              </p>
+            </div>
+          </div>
+          <div className='col-sm-6 col-md-3'>
+            <div className='service-item'>
+              <i className='ion-earth' />
+              <h4>Brand Identity</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut{' '}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      className='call-to-action section-sm overly'
+      style={{
+        backgroundImage: `url(${
+          !!contactusbg.childImageSharp
+            ? contactusbg.childImageSharp.fluid.src
+            : contactusbg
+        })`,
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+        backgroundAttachment: 'fixed',
+      }}
+    >
+      <div className='container'>
+        <div className='row'>
+          <div className='col-md-12'>
+            <div className='block'>
+              <h2>We design delightful digital experiences.</h2>
+              <p>
+                Read more about what we do and our philosophy of design. Judge
+                for yourself The work and results <br /> we’ve achieved for
+                other clients, and meet our highly experienced Team who just
+                love to design.
+              </p>
+              <Link className='btn btn-main btn-solid-border' to='/'>
+                Tell Us Your Story
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section className='testimonial'>
+      <div className='container'>
+        <div className='row'>
+          <div className='section-title text-center'>
+            <h2>Fun Facts About Us</h2>
+            <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, <br /> there live the blind texts.
+              Separated they live in Bookmarksgrove right at the coast of the
+              Semantics
+            </p>
+          </div>
+        </div>
+        <div className='row'>
+          <div className='col-md-6'>
+            <div className='block'>
+              <ul className='counter-box clearfix'>
+                <li>
+                  <div className='counter-item'>
+                    <i className='ion-ios-chatboxes-outline' />
+                    <h4 className='counter'>99</h4>
+                    <span>Cups Of Coffee</span>
                   </div>
-                  {/* <div className="content">
-                  <div className="tile">
-                    <h2 className="title">{mainpitch.title}</h2>
+                </li>
+                <li>
+                  <div className='counter-item'>
+                    <i className='ion-ios-glasses-outline' />
+                    <h4 className='counter'>45</h4>
+                    <span>Article Written</span>
                   </div>
-                  <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
+                </li>
+                <li>
+                  <div className='counter-item'>
+                    <i className='ion-ios-compose-outline' />
+                    <h4 className='counter'>125</h4>
+                    <span>Projects Completed</span>
                   </div>
-                </div>
-                <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                    <p>{description}</p>
+                </li>
+                <li>
+                  <div className='counter-item'>
+                    <i className='ion-ios-timer-outline' />
+                    <h4 className='counter'>200</h4>
+                    <span>Combined Projects</span>
                   </div>
-                </div> */}
-                  <div className='title '>
-                    <h2 className='title has-text-centered is-1'>
-                      OUR PRODUCTS
-                    </h2>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className='col-md-5 col-md-offset-1'>
+            <div className='testimonial-carousel text-center'>
+              <div className='testimonial-slider owl-carousel'>
+                <div>
+                  <i className='ion-quote' />
+                  <p>
+                    "This Company created an e-commerce site with the tools to
+                    make our business a success, with innovative ideas we feel
+                    that our site has unique elements that make us stand out
+                    from the crowd."
+                  </p>
+                  <div className='user'>
+                    <img src='images/item-img1.jpg' alt='Pepole' />
+                    <p>
+                      <span>Rose Ray</span> CEO-Themefisher
+                    </p>
                   </div>
-                  <Features gridItems={intro.blurbs} />
-
-                  <div className='columns' style={{ background: '#efefef' }}>
-                    <div className='column is-12'>
-                      <h3 className='has-text-weight-semibold is-size-2'>
-                        {main && main.heading}
-                      </h3>
-                      <p>{main.description}</p>
-                    </div>
-                  </div>
-                  <div
-                    className='columns is-multiline'
-                    style={{ background: '#efefef' }}
-                  >
-                    <div className='column is-4'>
-                      <section className='section'>
-                        <div className='has-text-centered'>
-                          <div
-                            style={{
-                              width: '240px',
-                              display: 'inline-block',
-                            }}
-                          >
-                            <PreviewCompatibleImage
-                              imageInfo={{ ...main.image1 }}
-                            />
-                          </div>
-                        </div>
-                        <p>{main.image1.alt}</p>
-                      </section>
-                    </div>
-                    <div className='column is-4'>
-                      <section className='section'>
-                        <div className='has-text-centered'>
-                          <div
-                            style={{
-                              width: '240px',
-                              display: 'inline-block',
-                            }}
-                          >
-                            <PreviewCompatibleImage
-                              imageInfo={{ ...main.image2 }}
-                            />
-                          </div>
-                        </div>
-                        <p>{main.image2.alt}</p>
-                      </section>
-                    </div>
-                    <div className='column is-4'>
-                      <section className='section'>
-                        <div className='has-text-centered'>
-                          <div
-                            style={{
-                              width: '240px',
-                              display: 'inline-block',
-                            }}
-                          >
-                            <PreviewCompatibleImage
-                              imageInfo={{ ...main.image3 }}
-                            />
-                          </div>
-                        </div>
-                        <p>{main.image3.alt}</p>
-                      </section>
-                    </div>
-                  </div>
-                  {/* <div className="columns">
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products/">
-                      See all products
-                    </Link>
-                  </div>
-                </div>
-                <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
-                  </h3>
-                  <BlogRoll />
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog/">
-                      Read more
-                    </Link>
-                  </div>
-                </div> */}
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   </>
 );
 
@@ -382,6 +361,9 @@ const IndexPage = ({ data }) => {
     <Layout>
       <IndexPageTemplate
         image={frontmatter.image}
+        aboutusimage={frontmatter.aboutusimage}
+        featurebg={frontmatter.featurebg}
+        contactusbg={frontmatter.contactusbg}
         title={frontmatter.title}
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
@@ -411,7 +393,28 @@ export const pageQuery = graphql`
         title
         image {
           childImageSharp {
-            fluid(maxWidth: 2048, maxHeight: 400, quality: 80) {
+            fluid(maxWidth: 1298, maxHeight: 700, quality: 80) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        aboutusimage {
+          childImageSharp {
+            fluid(maxWidth: 457, maxHeight: 406, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        featurebg {
+          childImageSharp {
+            fluid(maxWidth: 2560, maxHeight: 1564, quality: 80) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        contactusbg {
+          childImageSharp {
+            fluid(maxWidth: 1298, maxHeight: 312, quality: 80) {
               ...GatsbyImageSharpFluid
             }
           }

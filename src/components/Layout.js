@@ -2,14 +2,15 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
-import './all.sass';
+// import './all.sass';
 // import "../sass/layout.scss";
+
 import useSiteMetadata from './SiteMetadata';
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
   return (
-    <div>
+    <>
       <Helmet>
         <html lang='en' />
         <title>{title}</title>
@@ -44,17 +45,31 @@ const TemplateWrapper = ({ children }) => {
         <meta property='og:title' content={title} />
         <meta property='og:url' content='/' />
         <meta property='og:image' content='/img/og-image.jpg' />
+
         <link
           rel='stylesheet'
-          href='https://use.fontawesome.com/releases/v5.8.1/css/all.css'
-          integrity='sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf'
+          href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'
+          integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u'
           crossorigin='anonymous'
         />
+        <link rel='stylesheet' href='/plugins/Ionicons/css/ionicons.min.css' />
+        <link rel='stylesheet' href='/plugins/animate-css/animate.css' />
+        <link
+          rel='stylesheet'
+          href='/plugins/magnific-popup/dist/magnific-popup.css'
+        />
+        <link rel='stylesheet' href='/plugins/slick-carousel/slick/slick.css' />
+        <link
+          rel='stylesheet'
+          href='/plugins/slick-carousel/slick/slick-theme.css'
+        />
+
+        <link rel='stylesheet' href='/css/style.css' />
       </Helmet>
       <Navbar />
       <>{children}</>
       <Footer />
-    </div>
+    </>
   );
 };
 
