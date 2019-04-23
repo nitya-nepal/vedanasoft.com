@@ -12,6 +12,7 @@ export const IndexPageTemplate = ({
   aboutusimage,
   featurebg,
   contactusbg,
+  testimonialpic,
   title,
   // heading,
   subheading,
@@ -251,7 +252,7 @@ export const IndexPageTemplate = ({
         </div>
       </div>
     </section>
-    <section className='testimonial'>
+    {/* <section className='testimonial'>
       <div className='container'>
         <div className='row'>
           <div className='section-title text-center'>
@@ -311,7 +312,11 @@ export const IndexPageTemplate = ({
                     from the crowd."
                   </p>
                   <div className='user'>
-                    <img src='images/item-img1.jpg' alt='Pepole' />
+                    <PreviewCompatibleImage
+                      imageInfo={{
+                        image: testimonialpic,
+                      }}
+                    />
                     <p>
                       <span>Rose Ray</span> CEO-Themefisher
                     </p>
@@ -322,7 +327,7 @@ export const IndexPageTemplate = ({
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
   </>
 );
 
@@ -364,6 +369,7 @@ const IndexPage = ({ data }) => {
         aboutusimage={frontmatter.aboutusimage}
         featurebg={frontmatter.featurebg}
         contactusbg={frontmatter.contactusbg}
+        testimonialpic={frontmatter.testimonialpic}
         title={frontmatter.title}
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
@@ -415,6 +421,13 @@ export const pageQuery = graphql`
         contactusbg {
           childImageSharp {
             fluid(maxWidth: 1298, maxHeight: 312, quality: 80) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        testimonialpic {
+          childImageSharp {
+            fluid(maxWidth: 80, maxHeight: 80, quality: 100) {
               ...GatsbyImageSharpFluid
             }
           }

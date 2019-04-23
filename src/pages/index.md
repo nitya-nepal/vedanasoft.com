@@ -7,6 +7,7 @@ subheading: Aligning Software Inside Business
 aboutusimage: /img/wrapper-img.png
 featurebg: /img/feature-bg.jpg
 contactusbg: /img/call-to-action-bg.jpg
+testimonialpic: /img/item-img1.jpg
 mainpitch:
   title: Vedanasoft
   description: >
