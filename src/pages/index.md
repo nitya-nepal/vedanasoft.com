@@ -1,5 +1,61 @@
 ---
 templateKey: index-page
+
+coverimage1: /img/slider-bg.jpg
+h1TitleA: VEDANASOFT TECHNOLOGY AND INNOVATION
+h1TitleB: ALIGNING SOFTWARE INSIDE BUSINESS
+pSubtitleA: We love the Web and the work we do.We work closely with our clients to deliver
+pSubtitleB: the best possible solutions for their needs
+
+imgSection1: /img/wrapper-img.png
+h2Section1: ABOUT US
+pSubtitleSection1: Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics
+pSection1: >
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+
+coverimage2: /img/feature-bg.jpg
+h2Section2: WE BELIEVE IN GREAT IDE
+pSubtitleSection2: >
+  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+
+h2Section3: OUR SERVICES
+pSubtitleSection3A: Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+pSubtitleSection3B: there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics
+
+section4:
+  - h4: BRANDING
+    p: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+    icon: icon ion-coffee
+  - h4: WEB DESIGN
+    p: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+    icon: icon ion-coffee
+  - h4: BRANDING
+    p: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+    icon: icon ion-coffee
+  - h4: WEB DESIGN
+    p: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+    icon: icon ion-coffee
+  - h4: BRANDING
+    p: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+    icon: icon ion-coffee
+  - h4: WEB DESIGN
+    p: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+    icon: icon ion-coffee
+  - h4: BRANDING
+    p: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+    icon: icon ion-coffee
+  - h4: WEB DESIGN
+    p: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+    icon: icon ion-coffee
+
+coverimage3: /img/call-to-action-bg.jpg
+h2Section5: We design delightful digital experiences.
+pSection5A: Read more about what we do and our philosophy of design. Judge for yourself The work and results
+pSection5B: we’ve achieved for other clients, and meet our highly experienced Team who just love to design.
+
 title: Vedanasoft Technology and Innovation
 image: /img/slider-bg.jpg
 heading: Quality Coding
