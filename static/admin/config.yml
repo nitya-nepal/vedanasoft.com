@@ -27,14 +27,26 @@ collections:
         name: "index"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Heading, name: heading, widget: string}
-          - {label: Subheading, name: subheading, widget: string}
-          - {label: Mainpitch, name: mainpitch, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
-          - {label: Description, name: description, widget: string}
-          - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
-          - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
+          - {label: coverimage1, name: coverimage1, widget: image}
+          - {label: h1TitleA, name: h1TitleA, widget: string}
+          - {label: h1TitleB, name: h1TitleB, widget: string}
+          - {label: pSubtitleA, name: pSubtitleA, widget: string}
+          - {label: pSubtitleB, name: pSubtitleB, widget: string}
+          - {label: imgSection1, name: imgSection1, widget: image}
+          - {label: h2Section1, name: h2Section1, widget: string}
+          - {label: pSubtitleSection1, name: pSubtitleSection1, widget: string}
+          - {label: pSection1, name: pSection1, widget: string}
+          - {label: coverimage2, name: coverimage2, widget: image}
+          - {label: h2Section2, name: h2Section2, widget: string}
+          - {label: pSubtitleSection2, name: pSubtitleSection2, widget: string}
+          - {label: h2Section3, name: h2Section3, widget: string}
+          - {label: pSubtitleSection3A, name: pSubtitleSection3A, widget: string}
+          - {label: pSubtitleSection3B, name: pSubtitleSection3B, widget: string}
+          - {label: section4, name: section4, widget: object, fields: [{label: h4, name: h4, widget: string}, {label: p, name: p, widget: text}, {label: icon, name: icon, widget: string}]}
+          - {label: coverimage3, name: coverimage3, widget: image}
+          - {label: h2Section5, name: h2Section5, widget: string}
+          - {label: pSection5A, name: pSection5A, widget: string}
+          - {label: pSection5B, name: pSection5B, widget: string}
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"
