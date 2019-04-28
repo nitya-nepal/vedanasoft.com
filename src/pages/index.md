@@ -3,7 +3,7 @@ templateKey: index-page
 coverimage1: /img/slider-bg.jpg
 h1TitleA: VEDANASOFT TECHNOLOGY AND INNOVATION
 h1TitleB: ALIGNING SOFTWARE INSIDE BUSINESS
-pSubtitleA: We love the Web and the work we do.We work closely with our clients to deliver
+pSubtitleA: 'Head Office: Samakhusi Chowk, Grande Road. Ph: 01-4356221'
 pSubtitleB: the best possible solutions for their needs
 imgSection1: /img/wrapper-img.png
 h2Section1: ABOUT US
