@@ -34,7 +34,7 @@ pSubtitleSection3B: >-
   Laravel, React, Django, Python, UI/UX, Web app and mobile app is our forte.
 section4:
   - h4: WEB DESIGN
-    icon: icon ion-compass
+    icon: ion-android-exit
     p: >
       Clear site navigation, aesthetically pleasing, responsive design,
       mobile-friendliness plus securing your site with SSL Encryption 
