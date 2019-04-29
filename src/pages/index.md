@@ -46,7 +46,7 @@ section4:
   - h4: APP DESIGN
     icon: icon ion-image
     p: >-
-      Fast loading time and high performance, Influence of a successful app,
+      Fast loading time and high performance, Influence of a successful app, and
       right platform.
   - h4: STARTUP
     icon: icon ion-bug
