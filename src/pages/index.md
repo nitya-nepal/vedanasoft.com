@@ -63,9 +63,7 @@ section4:
       Thorough testing, Timeline, Adaptable and Flexible
   - h4: BRAND IDENTITY
     icon: icon ion-planet
-    p: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut
+    p: Elements that a company creates to portray the right image to its consumer
   - h4: SEO
     icon: icon ion-earth
     p: ' Do this and you''ll start to see your website traffic increase.'
