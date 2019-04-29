@@ -3,14 +3,11 @@ templateKey: index-page
 coverimage1: /img/slider-bg.jpg
 h1TitleA: VEDANASOFT TECHNOLOGY AND INNOVATION
 h1TitleB: ALIGNING SOFTWARE INSIDE BUSINESS
-pSubtitleA: DO IT RIGHT
+pSubtitleA: '                                        DO IT RIGHT'
 pSubtitleB: 'Head Office: Samakhusi Chowk, Grande Road. Ph: 01-4356221'
 imgSection1: /img/wrapper-img.png
 h2Section1: ABOUT US
-pSubtitleSection1: >-
-  Far far away, behind the word mountains, far from the countries Vokalia and
-  Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-  right at the coast of the Semantics
+pSubtitleSection1: Vedanasoft is an inception by three friends to bring Innovation in technology
 pSection1: >
   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
   tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam,
