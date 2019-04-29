@@ -54,7 +54,7 @@ section4:
       Right software choice, integration of software to leverage business
       performance and efficiency.
   - h4: LOGO DESIGN
-    icon: icon ion-headphone
+    icon: icon ion-social-vimeo-outline
     p: 'Memorable and Impactful, Relevant, Timeless and Targeted.'
   - h4: DEVELOPMENT
     icon: icon ion-leaf
