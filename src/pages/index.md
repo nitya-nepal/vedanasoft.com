@@ -11,9 +11,11 @@ pSubtitleSection1: >-
   Vedanasoft is an innovating software firm, its inception by three friends
   fascinated to bring the benefits of technology to individuals and masses. 
 pSection1: >-
-  Vedanasoft believes in quality product. To create product that actually makes
-  sense, that will reduce your effort. As simple as that. We thrive to give our
-  works easy yet artistic interface, pleasing feel to go through and use.  
+  Vedanasoft believes and understands quality of a product. To create product
+  that actually makes sense, that will reduce your effort. As simple as that. We
+  thrive to give our works easy yet artistic interface, pleasing feel to use and
+  codes that have exceptional logic in it. We work to bring software as good as
+  it gets around the globe.   
 coverimage2: /img/feature-bg.jpg
 h2Section2: WE BELIEVE IN WORKING TOGETHER
 pSubtitleSection2: >
