@@ -37,20 +37,19 @@ section4:
     icon: icon ion-compass
     p: >-
       Clear site navigation and architecture, aesthetically pleasing, responsive
-      design and mobile-friendliness plus securing your site with SSL
-      Encryption 
+      design,mobile-friendliness plus securing your site with SSL Encryption 
 
       Great site design = More trust = Better conversions
   - h4: BRANDING
     icon: icon ion-coffee
     p: >-
       Psychology of color, Impact of color on marketing, Psychology behind font
-      choice, Proportions and compositions
+      choice, Proportions and Compositions in place.
   - h4: APP DESIGN
     icon: icon ion-image
     p: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut
+      Fast loading time and high performance, Influence of a successful app,
+      right platform.
   - h4: STARTUP
     icon: icon ion-bug
     p: >-
