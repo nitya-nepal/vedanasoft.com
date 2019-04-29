@@ -30,8 +30,8 @@ pSubtitleSection3A: >-
   We are a research based team. Our products on the outside needs to be
   beautiful and fast.
 pSubtitleSection3B: >-
-  there live the blind texts. Separated they live in Bookmarksgrove right at the
-  coast of the Semantics
+  We work extensively head to head with changing technology and innovation.
+  Laravel, React, Django, Python, UI/UX, Web app and mobile app is our forte.
 section4:
   - h4: BRANDING
     icon: icon ion-coffee
