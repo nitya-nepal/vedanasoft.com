@@ -68,9 +68,7 @@ section4:
       tempor incididunt ut
   - h4: SEO
     icon: icon ion-earth
-    p: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut
+    p: ' Do this and you''ll start to see your website traffic increase.'
 coverimage3: /img/call-to-action-bg.jpg
 h2Section5: We design delightful digital experiences.
 pSection5A: >-
