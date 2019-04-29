@@ -8,15 +8,12 @@ pSubtitleB: 'Head Office: Samakhusi Chowk, Grande Road. Ph: 01-4356221'
 imgSection1: /img/wrapper-img.png
 h2Section1: ABOUT US
 pSubtitleSection1: >-
-  Vedanasoft is an innovating software firm, its inception by three friends to
-  bring the benefits of technology 
-pSection1: >
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  proident, sunt in culpa qui officia deserunt mollit anim id
+  Vedanasoft is an innovating software firm, its inception by three friends
+  fascinated to bring the benefits of technology to individuals and masses. 
+pSection1: >-
+  Vedanasoft believes in quality product. To create product that actually makes
+  sense, that will reduce your effort. As simple as that. We thrive to give our
+  works easy yet artistic interface, pleasing feel to go through and use.  
 coverimage2: /img/feature-bg.jpg
 h2Section2: WE BELIEVE IN GREAT IDE
 pSubtitleSection2: >
