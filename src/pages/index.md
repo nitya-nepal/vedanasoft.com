@@ -33,13 +33,13 @@ pSubtitleSection3B: >-
   We work extensively head to head with changing technology and innovation.
   Laravel, React, Django, Python, UI/UX, Web app and mobile app is our forte.
 section4:
-  - h4: BRANDING
-    icon: icon ion-coffee
+  - h4: WEB DESIGN
+    icon: icon ion-compass
     p: >-
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut
-  - h4: WEB DESIGN
-    icon: icon ion-compass
+  - h4: BRANDING
+    icon: icon ion-coffee
     p: >-
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut
@@ -76,10 +76,14 @@ section4:
 coverimage3: /img/call-to-action-bg.jpg
 h2Section5: We design delightful digital experiences.
 pSection5A: >-
-  Read more about what we do and our philosophy of design. Judge for yourself
-  The work and results
+  We have established ourselves to work in a creative environment, flexible work
+  hours and a very healthy yet competitive work environment, We have pushed
+  ourselves to get beyond conventional management styles and maintain
+  equanimity. 
 pSection5B: >-
-  we’ve achieved for other clients, and meet our highly experienced Team who
-  just love to design.
+  We are glad for what we have achieved for our clients, as we are making our
+  name nationally and internationally. You are always welcome to meet our highly
+  experienced Team who just love to design and importantly think about change
+  and social reforms via technology.
 ---
 
