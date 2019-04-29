@@ -36,8 +36,8 @@ section4:
   - h4: WEB DESIGN
     icon: icon ion-compass
     p: >
-      Clear site navigation and architecture, aesthetically pleasing, responsive
-      design,mobile-friendliness plus securing your site with SSL Encryption 
+      Clear site navigation, aesthetically pleasing, responsive design,
+      mobile-friendliness plus securing your site with SSL Encryption 
   - h4: BRANDING
     icon: icon ion-coffee
     p: >-
