@@ -59,8 +59,8 @@ section4:
   - h4: DEVELOPMENT
     icon: icon ion-leaf
     p: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut
+      An active product owner, Reliable teams, Clear objectives, Solid research,
+      Thorough testing, Timeline, Adaptable and Flexible
   - h4: BRAND IDENTITY
     icon: icon ion-planet
     p: >-
