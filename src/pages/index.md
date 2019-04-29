@@ -27,8 +27,8 @@ pSubtitleSection2: >-
   and integrate the system even as deep as its operations.
 h2Section3: OUR SERVICES
 pSubtitleSection3A: >-
-  Far far away, behind the word mountains, far from the countries Vokalia and
-  Consonantia,
+  We are a research based team. Our products on the outside needs to be
+  beautiful and fast.
 pSubtitleSection3B: >-
   there live the blind texts. Separated they live in Bookmarksgrove right at the
   coast of the Semantics
