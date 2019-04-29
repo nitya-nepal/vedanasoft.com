@@ -53,8 +53,8 @@ section4:
   - h4: STARTUP
     icon: icon ion-bug
     p: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut
+      Right software choice, integration of software to leverage business
+      performance and efficiency.
   - h4: LOGO DESIGN
     icon: icon ion-headphone
     p: >-
