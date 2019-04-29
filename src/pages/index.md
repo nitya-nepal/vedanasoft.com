@@ -57,9 +57,7 @@ section4:
       performance and efficiency.
   - h4: LOGO DESIGN
     icon: icon ion-headphone
-    p: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut
+    p: 'Memorable and Impactful, Relevant, Timeless and Targeted.'
   - h4: DEVELOPMENT
     icon: icon ion-leaf
     p: >-
