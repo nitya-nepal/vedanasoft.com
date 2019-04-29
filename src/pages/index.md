@@ -7,7 +7,9 @@ pSubtitleA: '                                        DO IT RIGHT'
 pSubtitleB: 'Head Office: Samakhusi Chowk, Grande Road. Ph: 01-4356221'
 imgSection1: /img/wrapper-img.png
 h2Section1: ABOUT US
-pSubtitleSection1: Vedanasoft is an inception by three friends to bring Innovation in technology
+pSubtitleSection1: >-
+  Vedanasoft is an innovating software firm, its inception by three friends to
+  bring the benefits of technology 
 pSection1: >
   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
   tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam,
