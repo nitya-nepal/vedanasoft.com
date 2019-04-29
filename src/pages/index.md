@@ -42,7 +42,7 @@ section4:
     icon: icon ion-coffee
     p: >-
       Psychology of color, Impact of color on marketing, Psychology behind font
-      choice, Proportions and Compositions in place.
+      choice, Proportions and Compositions.
   - h4: APP DESIGN
     icon: icon ion-image
     p: >-
