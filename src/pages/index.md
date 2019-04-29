@@ -15,7 +15,7 @@ pSection1: >-
   sense, that will reduce your effort. As simple as that. We thrive to give our
   works easy yet artistic interface, pleasing feel to go through and use.  
 coverimage2: /img/feature-bg.jpg
-h2Section2: WE BELIEVE IN GREAT IDE
+h2Section2: WE BELIEVE IN WORKING TOGETHER
 pSubtitleSection2: >
   Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac,
   vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris
