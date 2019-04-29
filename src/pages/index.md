@@ -44,7 +44,7 @@ section4:
       Psychology of color, Impact of color on marketing, Psychology behind font
       choice, Proportions and Compositions.
   - h4: APP DESIGN
-    icon: icon ion-image
+    icon: icon ion-social-android
     p: >-
       Fast loading time and high performance, Influence of a successful app, and
       right platform.
