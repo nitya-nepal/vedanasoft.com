@@ -18,16 +18,13 @@ pSection1: >-
   it gets around the globe.   
 coverimage2: /img/feature-bg.jpg
 h2Section2: WE BELIEVE IN WORKING TOGETHER
-pSubtitleSection2: >
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac,
-  vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-  condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus
-  mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-  Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
-  fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi
-  leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus
-  ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-  sit amet risus.
+pSubtitleSection2: >-
+  Not just as a developer, we work like a partner with our clients, Knowing our
+  clients and their business is very much necessary for us. We don't wish to
+  work like a blind developer but take part in developing and maturing the ideas
+  or business ideas into the system that will give our clients maximum benefits,
+  deliver decision making statistics and integrate the system even as deep as
+  its operation.
 h2Section3: OUR SERVICES
 pSubtitleSection3A: >-
   Far far away, behind the word mountains, far from the countries Vokalia and
