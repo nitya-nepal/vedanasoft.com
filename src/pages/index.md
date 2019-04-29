@@ -36,18 +36,16 @@ section4:
   - h4: WEB DESIGN
     icon: icon ion-compass
     p: >-
-      Your website is sometimes the only thing your customers see. Clear site
-      navigation and architecture, aesthetically pleasing, responsive design and
-      mobile-friendliness plus securing your site with SSL Encryption These
-      simple usability recommendations can make your website more appealing for
-      customers and improve your chances of success online.
+      Clear site navigation and architecture, aesthetically pleasing, responsive
+      design and mobile-friendliness plus securing your site with SSL
+      Encryption 
 
       Great site design = More trust = Better conversions
   - h4: BRANDING
     icon: icon ion-coffee
     p: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut
+      Psychology of color, Impact of color on marketing, Psychology behind font
+      choice, Proportions and compositions
   - h4: APP DESIGN
     icon: icon ion-image
     p: >-
