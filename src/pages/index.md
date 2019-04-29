@@ -23,8 +23,8 @@ pSubtitleSection2: >-
   clients and their business is very much necessary for us. We don't wish to
   work like a blind developer but take part in developing and maturing the ideas
   or business ideas into the system to intrigate with business models that will
-  give our clients maximum benefits, deliver decision making statistics and
-  blend and integrate the system even as deep as its operations.
+  give our clients maximum benefits, deliver decision making statistics, blend
+  and integrate the system even as deep as its operations.
 h2Section3: OUR SERVICES
 pSubtitleSection3A: >-
   Far far away, behind the word mountains, far from the countries Vokalia and
